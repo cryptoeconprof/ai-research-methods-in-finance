@@ -1,0 +1,19 @@
+# Reproducible local build output
+.work/
+*.aux
+*.log
+*.out
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.xdv
+
+# Local credentials and editor files
+.env
+.env.*
+.codex/
+.DS_Store
+Thumbs.db
+
+# Keep private and unreleased material outside this repository entirely.
+# Ignoring a file does not protect it if it has already been committed.
